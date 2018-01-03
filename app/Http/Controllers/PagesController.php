@@ -11,6 +11,9 @@ class PagesController extends Controller
     }
 
     public function about() {
-        return view('about');
+        $data = array(
+            'services' => ['Design', 'Development', 'Deploy']
+        );
+        return view('about')->with($data);
     }
 }
