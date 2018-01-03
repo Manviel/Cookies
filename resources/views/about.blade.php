@@ -19,10 +19,10 @@
             }
 
             .flex-center {
+                height: 100%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                height: 100%;
             }
 
             .title {
@@ -33,7 +33,7 @@
     <body>
         <div class="flex-center">
             <div class="title">
-                Welcome to Laravel
+                About page
             </div>
         </div>
     </body>
